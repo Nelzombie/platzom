@@ -1,0 +1,27 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "Traductor de idioma platzom",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nelzombie/platzom.git"
+  },
+  "keywords": [
+    "platzom",
+    "platzi",
+    "fundamentosjs"
+  ],
+  "author": "Nelson Valderrama <nvalderramarojas@gmail.com> (ecowebs.cl)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
